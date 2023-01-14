@@ -6,7 +6,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:okoul/components/film_card_2.dart';
 import 'package:okoul/constants/api.dart';
 import 'package:okoul/services/database/favorites/models/favorite_model.dart';
-import 'package:okoul/src/view/favorite/providers/shared_pref_provider.dart';
+import 'package:okoul/src/view/favorite/providers/db_provider.dart';
 import 'package:okoul/src/view/film/providers/film_casts_provider.dart';
 import 'package:okoul/src/view/film/providers/film_provider.dart';
 import 'package:okoul/src/view/film/providers/film_reviews.dart';

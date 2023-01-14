@@ -33,7 +33,7 @@ class _BottomNavyBarState extends State<BottomNavyBar> {
     return Container(
       decoration: BoxDecoration(
         color: Theme.of(context).canvasColor,
-        borderRadius: BorderRadius.only(
+        borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(
             12,
           ),
@@ -55,8 +55,8 @@ class _BottomNavyBarState extends State<BottomNavyBar> {
             ...widget.items
                 .map(
                   (e) => RawMaterialButton(
-                    shape: CircleBorder(),
-                    padding: EdgeInsets.all(0.0),
+                    shape: const CircleBorder(),
+                    padding: const EdgeInsets.all(0.0),
                     // color: widget.selecetedItem == widget.items.indexOf(e)
                     //     ? Colors.red
                     //     : null,

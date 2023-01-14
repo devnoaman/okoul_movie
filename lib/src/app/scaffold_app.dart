@@ -7,7 +7,7 @@ import 'package:iconsax/iconsax.dart';
 
 import 'package:okoul/packages/bottom_nav/lib/bottom_nav.dart';
 import 'package:okoul/providers/bottom_nav_provider.dart';
-import 'package:okoul/src/view/favorite/providers/shared_pref_provider.dart';
+import 'package:okoul/src/view/favorite/providers/db_provider.dart';
 import 'package:okoul/utils/language_util.dart';
 
 import 'package:okoul/components/components.dart' show MyAppBar;
